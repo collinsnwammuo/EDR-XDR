@@ -12,11 +12,11 @@ A hands-on comparison of endpoint detection and response platforms, deployed aga
 
 | # | Project | Status |
 |---|---|---|
-| 01 | [Microsoft Defender for Endpoint](./project-01-microsoft-defender/) | ✅ Complete |
+| 01 | [Microsoft Defender for Endpoint](https://github.com/collinsnwammuo/Microsoft-Defender-for-Endpoint) | ✅ Complete |
 | 02 | CrowdStrike Falcon | ⏳ Trial pending sales review |
 | 03 | Defender vs Falcon Comparison | 🔜 Planned |
 
-### 🟦 Project 01: Microsoft Defender for Endpoint
+### 🟦 [Project 01: Microsoft Defender for Endpoint](https://github.com/collinsnwammuo/Microsoft-Defender-for-Endpoint)
 Full deployment: tenant signup, device onboarding via local script, and a real triggered detection using the industry-standard EICAR test file. Covers the actual device timeline showing the full detection chain from browser download through cloud-side alert generation, a real ~15-minute cloud sync delay, and a genuinely interesting nuance where the top-level alert showed no MITRE ATT&CK tagging while a related timeline event was independently tagged T1559 (Inter-Process Communication).
 
 ### 🟧 Project 02: CrowdStrike Falcon (Pending)
